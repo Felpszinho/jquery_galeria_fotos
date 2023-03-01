@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    background-color: blueviolet;
+    padding: 16px 0;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    border-bottom: 16px solid rgb(177, 108, 241);
+
+
+}
+
+header button {
+    margin-left: 16px;
+}
+form{
+    background-color: rgb(167, 217, 240);
+    padding:24px 0;
+    text-align: center;
+    display: none;
+}
+form h2{
+    margin-bottom: 16px;
+}
+input,button{
+    padding: 8px;
+}
+button{
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#cancelar{
+    background-color: rgb(243, 10, 10);
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li{
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    overflow-y: hidden;
+    max-height: 280px;
+}
+ul li img{
+    width: 100%;
+}
+.over{
+    padding: 16px;
+    background-color: rgba(0, 0,0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.over:hover{
+    opacity: 1;
+}

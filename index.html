@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Jquery</title>
+</head>
+
+<body>
+    <header>
+        <h1>galeria de fotos</h1>
+        <button id="btn"type="button">Nova imagen</button>
+    </header>
+    <form>
+        <h2></h2>
+        <h2>inserir nova imagen</h2>
+        <input type="url" id="endereco-imagen-nova"required placeholder="URL da iamgem">
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="cancelar">Cancelar</button>
+    </form>
+
+    <ul>
+        <li>
+            <img src="./img/images/foto1.jpg"/>
+            <div class="over">
+                <a href="./img/images/foto1.jpg" target="_blank" alt="ver imagen tamanho real">ver imagen tamanho real</a>
+            </div>
+
+        </li>
+        <li>
+            <img src="./img/images/foto2.jpg"/>
+            <div class="over">
+                <a href="./img/images/foto2.jpg" target="_blank" alt="ver imagen tamanho real">ver imagen tamanho real</a>
+            </div>
+
+        </li>
+        <li>
+            <img src="./img/images/foto3.jpg"/>
+            <div class="over">
+                <a href="./img/images/foto3.jpg" target="_blank" alt="ver imagen tamanho real">ver imagen tamanho real</a>
+            </div>
+
+        </li>
+       
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
